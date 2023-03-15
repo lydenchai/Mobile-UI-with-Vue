@@ -7,12 +7,7 @@
           <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link>
           <div class="profile">
-            <img
-              src="./assets/my-profile.jpg"
-              width="100"
-              height="100"
-              alt=""
-            />
+            <img src="./assets/my-profile.jpg" width="100" height="100" alt="" />
           </div>
         </div>
       </nav>
@@ -33,7 +28,7 @@ export default {
     return {};
   },
   methods: {},
-  mounted() {},
+  mounted() { },
 };
 </script>
 <style scoped>
@@ -64,6 +59,7 @@ a {
   border-radius: 20px;
   text-decoration: none;
 }
+
 nav a.router-link-exact-active {
   background-color: #0186a7;
 }
@@ -76,6 +72,7 @@ h1 {
   margin-left: 15px;
   color: #fff;
 }
+
 img {
   margin-right: 20px;
   margin-left: 10px;
